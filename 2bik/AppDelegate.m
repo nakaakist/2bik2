@@ -1,12 +1,13 @@
 //
 //  AppDelegate.m
-//  2bik
+//  2bik2
 //
 //  Created by nariyuki on 5/25/14.
 //  Copyright (c) 2014 Nariyuki Saito. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "ViewControllers.h"
 
 @implementation AppDelegate
 
@@ -15,6 +16,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController=[[MenuViewController alloc]init];
     [self.window makeKeyAndVisible];
     return YES;
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2611A05A19514569003292BF /* frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 2611A05919514569003292BF /* frame.png */; };
+		2612CDBA193F6E050079F51C /* SelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2612CDB9193F6E050079F51C /* SelectViewController.m */; };
 		265017591931EFC800874699 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265017581931EFC800874699 /* Foundation.framework */; };
 		2650175B1931EFC800874699 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2650175A1931EFC800874699 /* CoreGraphics.framework */; };
 		2650175D1931EFC800874699 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2650175C1931EFC800874699 /* UIKit.framework */; };
@@ -19,6 +21,18 @@
 		265017741931EFC900874699 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2650175C1931EFC800874699 /* UIKit.framework */; };
 		2650177C1931EFC900874699 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2650177A1931EFC900874699 /* InfoPlist.strings */; };
 		2650177E1931EFC900874699 /* _bikTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2650177D1931EFC900874699 /* _bikTests.m */; };
+		26A9A00D193E198400E1FBCB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A9A00C193E198400E1FBCB /* MainViewController.m */; };
+		26B495651938515800495E0D /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 26B495641938515800495E0D /* bg.png */; };
+		26B4959C19386AA800495E0D /* ClearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B4959B19386AA800495E0D /* ClearViewController.m */; };
+		26B495CB193DF9EE00495E0D /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B495CA193DF9EE00495E0D /* MenuViewController.m */; };
+		26BDC77C1950B2F2005A56F7 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BDC7721950B2F2005A56F7 /* blue.png */; };
+		26BDC77E1950B2F2005A56F7 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BDC7761950B2F2005A56F7 /* green.png */; };
+		26BDC7801950B2F2005A56F7 /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BDC7781950B2F2005A56F7 /* orange.png */; };
+		26BDC7811950B2F2005A56F7 /* purple.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BDC7791950B2F2005A56F7 /* purple.png */; };
+		26BDC7821950B2F2005A56F7 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BDC77A1950B2F2005A56F7 /* red.png */; };
+		26BDC7831950B2F2005A56F7 /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BDC77B1950B2F2005A56F7 /* yellow.png */; };
+		26FD6717193F324500F614AD /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FD6716193F324500F614AD /* TutorialViewController.m */; };
+		26FD671A193F325500F614AD /* RankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FD6719193F325500F614AD /* RankViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,22 +46,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		265017551931EFC800874699 /* 2bik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2bik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2611A05919514569003292BF /* frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame.png; sourceTree = "<group>"; };
+		2612CDB8193F6E050079F51C /* SelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectViewController.h; sourceTree = "<group>"; };
+		2612CDB9193F6E050079F51C /* SelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectViewController.m; sourceTree = "<group>"; };
+		265017551931EFC800874699 /* 2bik2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2bik2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		265017581931EFC800874699 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2650175A1931EFC800874699 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2650175C1931EFC800874699 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		265017601931EFC800874699 /* 2bik-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2bik-Info.plist"; sourceTree = "<group>"; };
+		265017601931EFC800874699 /* 2bik2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2bik2-Info.plist"; sourceTree = "<group>"; };
 		265017621931EFC800874699 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		265017641931EFC800874699 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		265017661931EFC800874699 /* 2bik-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2bik-Prefix.pch"; sourceTree = "<group>"; };
+		265017661931EFC800874699 /* 2bik2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2bik2-Prefix.pch"; sourceTree = "<group>"; };
 		265017671931EFC800874699 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		265017681931EFC800874699 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2650176A1931EFC800874699 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		265017701931EFC900874699 /* 2bikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2bikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		265017701931EFC900874699 /* 2bik2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2bik2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		265017711931EFC900874699 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		265017791931EFC900874699 /* 2bikTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2bikTests-Info.plist"; sourceTree = "<group>"; };
+		265017791931EFC900874699 /* 2bik2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2bik2Tests-Info.plist"; sourceTree = "<group>"; };
 		2650177B1931EFC900874699 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2650177D1931EFC900874699 /* _bikTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _bikTests.m; sourceTree = "<group>"; };
+		26A9A00B193E198400E1FBCB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		26A9A00C193E198400E1FBCB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		26B495641938515800495E0D /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		26B4959A19386AA800495E0D /* ClearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClearViewController.h; sourceTree = "<group>"; };
+		26B4959B19386AA800495E0D /* ClearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClearViewController.m; sourceTree = "<group>"; };
+		26B4959D19386C8600495E0D /* ViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllers.h; sourceTree = "<group>"; };
+		26B495C9193DF9EE00495E0D /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		26B495CA193DF9EE00495E0D /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		26BDC7721950B2F2005A56F7 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		26BDC7761950B2F2005A56F7 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		26BDC7781950B2F2005A56F7 /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
+		26BDC7791950B2F2005A56F7 /* purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purple.png; sourceTree = "<group>"; };
+		26BDC77A1950B2F2005A56F7 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		26BDC77B1950B2F2005A56F7 /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
+		26FD6715193F324500F614AD /* TutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialViewController.h; sourceTree = "<group>"; };
+		26FD6716193F324500F614AD /* TutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialViewController.m; sourceTree = "<group>"; };
+		26FD6718193F325500F614AD /* RankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankViewController.h; sourceTree = "<group>"; };
+		26FD6719193F325500F614AD /* RankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankViewController.m; sourceTree = "<group>"; };
+		26FD671B193F35DB00F614AD /* parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parameters.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +123,8 @@
 		265017561931EFC800874699 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				265017551931EFC800874699 /* 2bik.app */,
-				265017701931EFC900874699 /* 2bikTests.xctest */,
+				265017551931EFC800874699 /* 2bik2.app */,
+				265017701931EFC900874699 /* 2bik2Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,10 +143,32 @@
 		2650175E1931EFC800874699 /* 2bik */ = {
 			isa = PBXGroup;
 			children = (
+				2611A05919514569003292BF /* frame.png */,
+				26BDC7721950B2F2005A56F7 /* blue.png */,
+				26BDC7761950B2F2005A56F7 /* green.png */,
+				26BDC7781950B2F2005A56F7 /* orange.png */,
+				26BDC7791950B2F2005A56F7 /* purple.png */,
+				26BDC77A1950B2F2005A56F7 /* red.png */,
+				26BDC77B1950B2F2005A56F7 /* yellow.png */,
+				26B495641938515800495E0D /* bg.png */,
 				265017671931EFC800874699 /* AppDelegate.h */,
 				265017681931EFC800874699 /* AppDelegate.m */,
 				2650176A1931EFC800874699 /* Images.xcassets */,
 				2650175F1931EFC800874699 /* Supporting Files */,
+				26FD671B193F35DB00F614AD /* parameters.h */,
+				26B4959D19386C8600495E0D /* ViewControllers.h */,
+				26B4959A19386AA800495E0D /* ClearViewController.h */,
+				26B4959B19386AA800495E0D /* ClearViewController.m */,
+				26B495C9193DF9EE00495E0D /* MenuViewController.h */,
+				26B495CA193DF9EE00495E0D /* MenuViewController.m */,
+				26A9A00B193E198400E1FBCB /* MainViewController.h */,
+				26A9A00C193E198400E1FBCB /* MainViewController.m */,
+				26FD6715193F324500F614AD /* TutorialViewController.h */,
+				26FD6716193F324500F614AD /* TutorialViewController.m */,
+				26FD6718193F325500F614AD /* RankViewController.h */,
+				26FD6719193F325500F614AD /* RankViewController.m */,
+				2612CDB8193F6E050079F51C /* SelectViewController.h */,
+				2612CDB9193F6E050079F51C /* SelectViewController.m */,
 			);
 			path = 2bik;
 			sourceTree = "<group>";
@@ -118,10 +176,10 @@
 		2650175F1931EFC800874699 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				265017601931EFC800874699 /* 2bik-Info.plist */,
+				265017601931EFC800874699 /* 2bik2-Info.plist */,
 				265017611931EFC800874699 /* InfoPlist.strings */,
 				265017641931EFC800874699 /* main.m */,
-				265017661931EFC800874699 /* 2bik-Prefix.pch */,
+				265017661931EFC800874699 /* 2bik2-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,7 +196,7 @@
 		265017781931EFC900874699 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				265017791931EFC900874699 /* 2bikTests-Info.plist */,
+				265017791931EFC900874699 /* 2bik2Tests-Info.plist */,
 				2650177A1931EFC900874699 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -147,9 +205,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		265017541931EFC800874699 /* 2bik */ = {
+		265017541931EFC800874699 /* 2bik2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 265017811931EFC900874699 /* Build configuration list for PBXNativeTarget "2bik" */;
+			buildConfigurationList = 265017811931EFC900874699 /* Build configuration list for PBXNativeTarget "2bik2" */;
 			buildPhases = (
 				265017511931EFC800874699 /* Sources */,
 				265017521931EFC800874699 /* Frameworks */,
@@ -159,14 +217,14 @@
 			);
 			dependencies = (
 			);
-			name = 2bik;
+			name = 2bik2;
 			productName = 2bik;
-			productReference = 265017551931EFC800874699 /* 2bik.app */;
+			productReference = 265017551931EFC800874699 /* 2bik2.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2650176F1931EFC900874699 /* 2bikTests */ = {
+		2650176F1931EFC900874699 /* 2bik2Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 265017841931EFC900874699 /* Build configuration list for PBXNativeTarget "2bikTests" */;
+			buildConfigurationList = 265017841931EFC900874699 /* Build configuration list for PBXNativeTarget "2bik2Tests" */;
 			buildPhases = (
 				2650176C1931EFC900874699 /* Sources */,
 				2650176D1931EFC900874699 /* Frameworks */,
@@ -177,9 +235,9 @@
 			dependencies = (
 				265017761931EFC900874699 /* PBXTargetDependency */,
 			);
-			name = 2bikTests;
+			name = 2bik2Tests;
 			productName = 2bikTests;
-			productReference = 265017701931EFC900874699 /* 2bikTests.xctest */;
+			productReference = 265017701931EFC900874699 /* 2bik2Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -196,7 +254,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 265017501931EFC800874699 /* Build configuration list for PBXProject "2bik" */;
+			buildConfigurationList = 265017501931EFC800874699 /* Build configuration list for PBXProject "2bik2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -208,8 +266,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				265017541931EFC800874699 /* 2bik */,
-				2650176F1931EFC900874699 /* 2bikTests */,
+				265017541931EFC800874699 /* 2bik2 */,
+				2650176F1931EFC900874699 /* 2bik2Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -219,8 +277,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26BDC77E1950B2F2005A56F7 /* green.png in Resources */,
+				26BDC7831950B2F2005A56F7 /* yellow.png in Resources */,
 				265017631931EFC800874699 /* InfoPlist.strings in Resources */,
+				2611A05A19514569003292BF /* frame.png in Resources */,
+				26BDC77C1950B2F2005A56F7 /* blue.png in Resources */,
 				2650176B1931EFC800874699 /* Images.xcassets in Resources */,
+				26B495651938515800495E0D /* bg.png in Resources */,
+				26BDC7811950B2F2005A56F7 /* purple.png in Resources */,
+				26BDC7821950B2F2005A56F7 /* red.png in Resources */,
+				26BDC7801950B2F2005A56F7 /* orange.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +305,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2612CDBA193F6E050079F51C /* SelectViewController.m in Sources */,
 				265017691931EFC800874699 /* AppDelegate.m in Sources */,
+				26B4959C19386AA800495E0D /* ClearViewController.m in Sources */,
+				26FD6717193F324500F614AD /* TutorialViewController.m in Sources */,
+				26FD671A193F325500F614AD /* RankViewController.m in Sources */,
 				265017651931EFC800874699 /* main.m in Sources */,
+				26A9A00D193E198400E1FBCB /* MainViewController.m in Sources */,
+				26B495CB193DF9EE00495E0D /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +329,7 @@
 /* Begin PBXTargetDependency section */
 		265017761931EFC900874699 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 265017541931EFC800874699 /* 2bik */;
+			target = 265017541931EFC800874699 /* 2bik2 */;
 			targetProxy = 265017751931EFC900874699 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -358,9 +430,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "2bik/2bik-Prefix.pch";
-				INFOPLIST_FILE = "2bik/2bik-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "2bik/2bik2-Prefix.pch";
+				INFOPLIST_FILE = "2bik/2bik2-Info.plist";
+				PRODUCT_NAME = 2bik2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -371,9 +443,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "2bik/2bik-Prefix.pch";
-				INFOPLIST_FILE = "2bik/2bik-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "2bik/2bik2-Prefix.pch";
+				INFOPLIST_FILE = "2bik/2bik2-Info.plist";
+				PRODUCT_NAME = 2bik2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -393,8 +465,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "2bikTests/2bikTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "2bikTests/2bik2Tests-Info.plist";
+				PRODUCT_NAME = 2bik2Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -411,8 +483,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "2bik/2bik-Prefix.pch";
-				INFOPLIST_FILE = "2bikTests/2bikTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "2bikTests/2bik2Tests-Info.plist";
+				PRODUCT_NAME = 2bik2Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -421,7 +493,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		265017501931EFC800874699 /* Build configuration list for PBXProject "2bik" */ = {
+		265017501931EFC800874699 /* Build configuration list for PBXProject "2bik2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2650177F1931EFC900874699 /* Debug */,
@@ -430,21 +502,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		265017811931EFC900874699 /* Build configuration list for PBXNativeTarget "2bik" */ = {
+		265017811931EFC900874699 /* Build configuration list for PBXNativeTarget "2bik2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				265017821931EFC900874699 /* Debug */,
 				265017831931EFC900874699 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		265017841931EFC900874699 /* Build configuration list for PBXNativeTarget "2bikTests" */ = {
+		265017841931EFC900874699 /* Build configuration list for PBXNativeTarget "2bik2Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				265017851931EFC900874699 /* Debug */,
 				265017861931EFC900874699 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

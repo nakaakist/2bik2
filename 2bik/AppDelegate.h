@@ -1,6 +1,6 @@
 //
 //  AppDelegate.h
-//  2bik
+//  2bik2
 //
 //  Created by nariyuki on 5/25/14.
 //  Copyright (c) 2014 Nariyuki Saito. All rights reserved.
